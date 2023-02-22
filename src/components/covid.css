@@ -1,0 +1,348 @@
+
+
+html{ scroll-behavior: smooth; }
+		
+*{ margin: 0; padding:0; box-sizing: border-box;font-family: 'Muli', sans-serif; }
+
+ body{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+  background-color: black;
+  
+}
+
+.head{
+  color: white;
+  
+}
+.posy{
+  margin-top: 50px;
+  margin-left: 480px;
+  margin-bottom: 20px;
+}
+.posi{
+  margin-left: 370px;
+}
+.container{
+  padding: 2rem 5%;
+  color: white;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.card{
+  width: 300px;
+  height: 200px;
+}
+
+
+.cl1{
+  background-color: rgb(129, 109, 230);
+  transition: transform .5s;
+
+}
+.cl1:hover{
+  transform: scale(1.1);
+}
+
+
+
+.cl2{
+background-color: rgb(52, 206, 52);
+transition: transform .5s;
+}
+
+.cl2:hover{
+  transform: scale(1.1);
+}
+
+
+
+.cl3{
+background-color: rgb(212, 212, 44);
+transition: transform .5s;
+
+}
+.cl3:hover{
+  transform: scale(1.1);
+}
+
+
+
+.cl4{
+background-color: rgb(168, 91, 23);
+transition: transform .5s;
+
+}
+.cl4:hover{
+  transform: scale(1.1);
+}
+
+
+
+.cl5{
+background-color: rgb(53, 189, 207);
+transition: transform .5s;
+
+}
+.cl5:hover{
+  transform: scale(1.1);
+}
+
+
+
+.cl6{
+background-color: rgb(181, 22, 22);
+transition: transform .5s;
+
+}
+.cl6:hover{
+  transform: scale(1.1);
+}
+
+
+.cardcss{
+  background: #fff;
+  padding: 15px 20px;
+  box-shadow: 0 0 3px rgba(0,0,0,0.5);
+  flex: 1 0 20em;
+
+}
+
+
+.si{
+  font-size: 5.2rem;
+}
+
+.card h5{
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  color: white;
+  font-size: 1.4rem;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+
+}
+.hello{
+  text-align: justify;
+  line-height: 130%;
+  margin: auto;
+  margin-bottom: 60px;
+  font-size: 3.4rem;
+  text-shadow: 4px 5px 4px #000000;
+
+}
+
+.sml{
+  font-size: 2.8rem;
+  margin-left: 29px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .row{ margin: 0!important; }
+
+.nav_style{ background-color: #a29bfe!important;  }
+
+.nav_style a{ color: white; }
+
+.main_header{  height: 450px;  */
+	/*background-color: green; */
+   /*box-shadow: 0 8px 6px -6px black;*/
+/* 
+}
+
+
+.rightside h1{ font-size: 3rem; }
+
+.eksath_anime img{ animation: heartbeat 5s linear infinite}
+
+@keyframes heartbeat
+{
+  0%
+  {
+    transform: scale( .75 );
+  }
+  20%
+  {
+    transform: scale( 1 );
+  }
+  40%
+  {
+    transform: scale( .75 );
+  }
+  60%
+  {
+    transform: scale( 1 );
+  }
+  80%
+  {
+    transform: scale( .75 );
+  }
+  100%
+  {
+    transform: scale( .75 );
+  }
+}
+
+
+.corona_anime img{ animation: coranaround 3s linear infinite}
+
+@keyframes coranaround{ 
+	0% { transform: rotate(0); }
+	100% { transform: rotate(360deg); }
+ } */
+
+
+
+/****************** project work ****************/
+/* .corono_update{
+	margin: 0 0 30px 0; */
+	/*background-color: #fab1a0;*/
+/* }
+
+.corono_update h3{ color: #ff7675; }
+
+.corono_update h1{
+	font-size: 2rem;
+	text-align: center;
+} */
+
+
+/*********************** project works end ************/
+
+/******************* about css **************/
+
+/* .sub_section{  */
+	/* background-color: #fbfafd; */
+	/*padding: 50px 0;*/
+ /* } */
+
+/************* footer *******************/
+
+/* .footer_style{
+	 background-color: #a29bfe!important;  
+}
+
+.footer_style p {
+	margin-bottom: 0!important;
+} */
+
+/***************** top scroll **************/
+/* #myBtn { */
+  /* display: none; */
+   /* Hidden by default */
+  /* position: fixed;  */
+  /* Fixed/sticky position */
+  /* bottom: 30px; */
+   /* Place the button at the bottom of the page */
+  /* right: 40px;  */
+  /* Place the button 30px from the right */
+  /* z-index: 99; */
+  
+  /* Make sure it does not overlap */
+  /* border: none; */
+   /* Remove borders */
+  /* outline: none;  */
+  /* Remove outline */
+  /* background-color: #00A8FF;  */
+  /* Set a background color */
+  /* color: white;  */
+  /* Text color */
+  /* cursor: pointer; */
+   /* Add a mouse pointer on hover */
+  /* padding: 10px; */
+   /* Some padding */
+  /* border-radius: 10px;  */
+  /* Rounded corners */
+/* } */
+
+/* #myBtn:hover { */
+  /* background:  #606060 ; */
+   /* Add a dark-grey background on hover */
+/* } */
+
+
+
+/***************** responsive css *****************/
+/* 
+@media(max-width: 780px)
+{ .main_header{ height: 700px; text-align: center; }
+
+	.main_header h1{     
+	text-align: center;
+    padding: 0;
+    width: 100%;
+    font-size: 30px; }
+} */
